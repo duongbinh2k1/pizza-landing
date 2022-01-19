@@ -1,0 +1,58 @@
+.contactus {
+  position: relative;
+  margin-top: 700px;
+  width: 100vw;
+  height: 800px;
+  background-color: #27292b;
+  text-align: center;
+}
+
+.contactus-img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactus-content {
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.contactus-content h1 {
+  margin-bottom: 50px;
+  font-size: 100px;
+  color: #fff;
+}
+
+.contactus-content p {
+  max-width: 890px;
+  margin-bottom: 50px;
+  color: #fff;
+  font-size: 30px;
+}
+
+.contactus-content form {
+  position: relative;
+}
+
+.contactus-content form input {
+  width: 770px;
+  padding: 20px 30px;
+  border-radius: 40px;
+  font-size: 20px;
+}
+
+.contactus-content form button {
+  position: absolute;
+  top: 0;
+  right: -2px;
+  padding: 20px 80px;
+  border-radius: 40px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #54524f;
+}

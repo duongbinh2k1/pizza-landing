@@ -1,0 +1,42 @@
+.info {
+  background-color: black;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.info h1 {
+  margin-bottom: 60px;
+  font-size: 80px;
+  color: #fff;
+  font-family: "Neonderthaw", cursive;
+  text-align: center;
+}
+
+.info-content {
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.info-content p {
+  color: #fff;
+  font-size: 20px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+
+.info button {
+  display: block;
+  margin: 0 auto;
+  padding: 15px 60px;
+  background-color: #fff;
+  border-radius: 50px;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
