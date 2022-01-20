@@ -41,3 +41,31 @@
   letter-spacing: 2px;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 768px) {
+  .product-content {
+    margin-bottom: 30px;
+  }
+
+  .product-content h1 {
+    font-size: 40px;
+  }
+
+  .product-content p {
+    font-size: 20px;
+  }
+
+  .product-list ul {
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+  .product-list ul li {
+    margin-bottom: 20px;
+  }
+
+  .product button {
+    padding: 15px 30px;
+    font-size: 18px;
+  }
+}

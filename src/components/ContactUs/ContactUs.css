@@ -56,3 +56,56 @@
   color: #fff;
   background-color: #54524f;
 }
+.contactus-img2 {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .contactus {
+    margin-top: 200px;
+  }
+
+  .contactus-img2 {
+    display: block;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-60%);
+  }
+
+  .contactus-img {
+    width: 100%;
+    height: 100%;
+    transform: translateY(-30%);
+  }
+
+  .contactus-img img,
+  .contactus-img2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .contactus-content {
+    width: 90%;
+  }
+
+  .contactus-content h1 {
+    font-size: 40px;
+  }
+
+  .contactus-content p {
+    font-size: 20px;
+  }
+
+  .contactus-content form input {
+    padding: 10px 20px;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .contactus-content form button {
+    top: -2px;
+    right: -1px;
+    padding: 10px 20px;
+  }
+}

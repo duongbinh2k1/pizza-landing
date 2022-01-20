@@ -20,7 +20,7 @@ const Hero = () => {
               iusmod tempor incididunt ut labore et dolore magna.
             </p>
             <div className="hero-img">
-              <img src={heroImg} />
+              <img src={heroImg} alt="" />
             </div>
           </div>
         </div>

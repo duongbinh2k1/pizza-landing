@@ -23,6 +23,9 @@ const ContactUs = () => {
             </form>
           </div>
         </div>
+        <div className="contactus-img2">
+          <img src={img} alt="" />
+        </div>
       </div>
     </>
   );
